@@ -1,0 +1,6 @@
+#chart circle{ fill: lightblue }
+#chart line#total {
+    stroke: green;
+    stroke-width: 3px;
+    opacity: 0.5;
+}

@@ -1,0 +1,4 @@
+#chart circle {fill: lightblue}
+#chart line {stroke: #55555; stroke-width: 2}
+#chart rect {stroke: red; fill: white}
+#chart polygon {fill: green}

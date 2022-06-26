@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!-- 少数のCSSスタイルルール -->
+<style>
+    svg#chart {
+    background: lightgray;
+}
+</style>
+
+<svg id="chart" width="300" height="225">
+  <text id="title" text-anchor="middle" x="150" y="20">
+    A Dummy Chart
+  </text>
+  <circle r="15" cx="100" cy="50" fill="lightblue"></circle>
+  <line x1="20" y1="20" x2="20" y2="130" stroke="#555555"></line>
+  <line x1="20" y1="130" x2="280" y2="130"></line>
+  <rect x="240" y="5" width="55" height="30"></rect>
+  <polygon points="210,100, 230,100 220,80"></polygon>
+  #chart circle {fill: lightblue}
+  #chart line {stroke: #555555; stroke-width: 2}
+  #chart rect {stroke: red; fill: white}
+  #chaart polygon {fill: green}
+</svg>
+
+<!-- サードパーティライブラリとJSスクリプト -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="script.js"></script>
+
